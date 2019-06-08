@@ -1,5 +1,5 @@
 [package]
-name = "serde_derive"
+name = "serde_derive_urashima"
 version = "1.0.92" # remember to update html_root_url
 authors = ["Erick Tryzelaar <erick.tryzelaar@gmail.com>", "David Tolnay <dtolnay@gmail.com>"]
 license = "MIT OR Apache-2.0"
@@ -20,7 +20,7 @@ default = []
 deserialize_in_place = []
 
 [lib]
-name = "serde_derive"
+name = "serde_derive_urashima"
 proc-macro = true
 
 [dependencies]

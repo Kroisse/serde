@@ -84,7 +84,7 @@ pub fn derive_serialize(input: TokenStream) -> TokenStream {
         .into()
 }
 
-#[proc_macro_derive(Deserialize, attributes(serde))]
+#[proc_macro_derive(DeserializeSeed, attributes(serde))]
 pub fn derive_deserialize(input: TokenStream) -> TokenStream {
     let input = parse_macro_input!(input as DeriveInput);
     de::expand_derive_deserialize(&input)
